@@ -1,0 +1,55 @@
+#navbar{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    color: white;
+    display: flex;
+    height: 10vh;
+    /* align-items: center; */
+}
+
+li{
+    list-style: none;
+    margin: 0 30px;
+    font-size: 25px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+b {
+    color: blue;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+#hero-section{
+    height: 70vh;
+    background-color: white;
+    background-size: cover;
+    /* background-repeat: ; */
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 200px;
+}
+
+#picture-selection{
+    float: right;
+    padding: 10px;
+    padding-top: 120px;
+    padding-right: 250px;
+}
+
+#pre-selection{
+    padding-left: 88px;
+}
