@@ -18,26 +18,36 @@
         <ul>
         <a href=""><li>Sell Item</li></a>
         <a href=""><li>Deposit</li></a>
-        <a href=""><li>Home</li></a>
-        <a href=""><li>About US</li></a>
+        <a href="./home.blade.php"><li>Home</li></a>
+        <a href="./about-us.blade.php"><li>About US</li></a>
         </ul>
 </div>
 <!-- Bagian Bawah Navbar -->
 <div id="TotalSaldo">
 <br>
 <!-- Display Total saldo berdasarkan deposit -->
-<b> Total Saldo: 5.000.000</b> 
+<p class="Currency">Total Saldo: <span>5.000.000</span></p>
 <!-- Inset Command: ... -->
 </div>
 
 <div id="Product">
     <us>
-        <br>
+        <div>
             <img src="../assets/testing.png" width="200" height="200">
             <p>Nama Barang: Spongebob</p>
             <p>Nilai Limit: Rp.200.000</p>
             <button href="">Click to Bid</button>
+        </div>
+        
+        <div>
+            <img src="../assets/Patrick-Star.png" width="200" height="200">
+            <p>Nama Barang: Spongebob</p>
+            <p>Nilai Limit: Rp.200.000</p>
+            <button href="">Click to Bid</button>
+        </div>
     </us>
+
+    
 </div>
 
 </body>
